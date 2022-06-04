@@ -160,7 +160,7 @@ export class BarCard extends LitElement {
         }
 
         // Defined height and check for configured height.
-        let barHeight: string | number = 40;
+        let barHeight: string | number = 52;
         if (config.height) barHeight = config.height;
 
         // Set style variables based on direction.
